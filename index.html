@@ -5,17 +5,19 @@
   
 
   
-  <title>Hexo</title>
+  <title>MGQ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="m-blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MGQ">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="MGQ">
+<meta property="og:description" content="m-blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="miaoguangqiang">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="MGQ" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -36,7 +38,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">MGQ</a>
       </h1>
       
     </div>
@@ -53,7 +55,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -103,7 +105,90 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/29/hello-world/" data-id="ckarkirxe0000rangauyqd2kx" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/05/29/hello-world/" data-id="ckarn3uvi0000iong266gdpeg" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Java" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/20/Java/" class="article-date">
+  <time datetime="2020-05-20T02:07:34.079Z" itemprop="datePublished">2020-05-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/20/Java/">Java</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="volatile修饰"><a href="#volatile修饰" class="headerlink" title="volatile修饰"></a>volatile修饰</h4><blockquote>
+<p>变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量</p>
+</blockquote>
+<ul>
+<li>volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取</li>
+<li>volatile声明的变量禁止指令重排序优化</li>
+</ul>
+<h4 id="volatile性能"><a href="#volatile性能" class="headerlink" title="volatile性能"></a>volatile性能</h4><blockquote>
+<p>volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内存屏障指令来保证处理器不发生乱序执行</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/05/20/Java/" data-id="ckarn3uw60002ionghoi87a07" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-JMM" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/05/19/JMM/" class="article-date">
+  <time datetime="2020-05-19T11:09:30.133Z" itemprop="datePublished">2020-05-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/19/JMM/">JMM</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Java内存模型（Java-Memory-Model）"><a href="#Java内存模型（Java-Memory-Model）" class="headerlink" title="Java内存模型（Java Memory Model）"></a>Java内存模型（Java Memory Model）</h1><p>屏蔽各种硬件和操作系统的内存访问差异,以便Java在各个平台下内存访问一致</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/05/19/JMM/" data-id="ckarn3uw50001iongfa797que" class="article-share-link">Share</a>
       
       
     </footer>
@@ -129,9 +214,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a></li></ul>
     </div>
   </div>
 
@@ -139,12 +224,20 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
         
           <li>
             <a href="/2020/05/29/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/20/Java/">Java</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/19/JMM/">JMM</a>
           </li>
         
       </ul>
@@ -159,7 +252,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
+      &copy; 2020 miaoguangqiang<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>

@@ -16,7 +16,7 @@
     <meta name="keywords" content="Java,blog,面试">
 
 
-<title>Java | MGQ</title>
+<title>test | MGQ</title>
 
 
 
@@ -111,73 +111,11 @@
             <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
-</div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
-    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Java</h1>
+            <h1 class="post-title">test</h1>
             
                 <div class="post-meta">
                     
@@ -186,26 +124,23 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">五月 20, 2020&nbsp;&nbsp;10:07:34</a>
+                        Date: <a href="#">五月 29, 2020&nbsp;&nbsp;17:48:28</a>
                         </span>
                     
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/test/">test</a>
+                            
+                        </span>
                     
                 </div>
             
         </header>
 
         <div class="post-content">
-            <h4 id="volatile修饰"><a href="#volatile修饰" class="headerlink" title="volatile修饰"></a>volatile修饰</h4><blockquote>
-<p>变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量</p>
-</blockquote>
-<ul>
-<li>volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取</li>
-<li>volatile声明的变量禁止指令重排序优化</li>
-</ul>
-<h4 id="volatile性能"><a href="#volatile性能" class="headerlink" title="volatile性能"></a>volatile性能</h4><blockquote>
-<p>volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内存屏障指令来保证处理器不发生乱序执行</p>
-</blockquote>
-
+            
         </div>
 
         
@@ -219,7 +154,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://mgq.ink/2020/05/20/Java/">http://mgq.ink/2020/05/20/Java/</a></span>
+                        <span><a href="http://mgq.ink/2020/05/29/test/">http://mgq.ink/2020/05/29/test/</a></span>
                     </p>
                 
                 
@@ -242,6 +177,10 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
+                    
+                        <a href="/tags/test/"># test</a>
+                    
+                        
                 </span>
             </div>
             <div>
@@ -252,10 +191,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/05/29/hello-world/">Hello World</a>
             
-            
-            <a class="next" rel="next" href="/2020/05/19/JMM/">JMM</a>
+            <a class="next" rel="next" href="/2020/05/29/hello-world/">Hello World</a>
             
         </section>
 

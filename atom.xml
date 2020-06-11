@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>G.Miao</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mgq.ink/"/>
+  <updated>2020-06-11T10:41:38.361Z</updated>
+  <id>http://mgq.ink/</id>
+  
+  <author>
+    <name>miaoguangqiang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>page_test</title>
+    <link href="http://mgq.ink/2020/06/11/page-test/"/>
+    <id>http://mgq.ink/2020/06/11/page-test/</id>
+    <published>2020-06-11T10:41:38.000Z</published>
+    <updated>2020-06-11T10:41:38.361Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://mgq.ink/2020/05/29/test/"/>
+    <id>http://mgq.ink/2020/05/29/test/</id>
+    <published>2020-05-29T09:48:28.000Z</published>
+    <updated>2020-05-30T08:04:57.369Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="这是一个测试文件"><a href="#这是一个测试文件" class="headerlink" title="这是一个测试文件"></a>这是一个测试文件</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;这是一个测试文件&quot;&gt;&lt;a href=&quot;#这是一个测试文件&quot; class=&quot;headerlink&quot; title=&quot;这是一个测试文件&quot;&gt;&lt;/a&gt;这是一个测试文件&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://mgq.ink/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://mgq.ink/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://mgq.ink/2020/05/29/hello-world/"/>
+    <id>http://mgq.ink/2020/05/29/hello-world/</id>
+    <published>2020-05-29T01:37:27.491Z</published>
+    <updated>2020-05-29T01:37:27.491Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java</title>
+    <link href="http://mgq.ink/2020/05/20/Java/"/>
+    <id>http://mgq.ink/2020/05/20/Java/</id>
+    <published>2020-05-20T02:07:34.079Z</published>
+    <updated>2020-05-20T02:16:31.848Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="volatile修饰"><a href="#volatile修饰" class="headerlink" title="volatile修饰"></a>volatile修饰</h4><blockquote><p>变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量</p></blockquote><ul><li>volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取</li><li>volatile声明的变量禁止指令重排序优化</li></ul><h4 id="volatile性能"><a href="#volatile性能" class="headerlink" title="volatile性能"></a>volatile性能</h4><blockquote><p>volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内存屏障指令来保证处理器不发生乱序执行</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;volatile修饰&quot;&gt;&lt;a href=&quot;#volatile修饰&quot; class=&quot;headerlink&quot; title=&quot;volatile修饰&quot;&gt;&lt;/a&gt;volatile修饰&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;变量声明了volatile后，跳过cpu cach
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JMM</title>
+    <link href="http://mgq.ink/2020/05/19/JMM/"/>
+    <id>http://mgq.ink/2020/05/19/JMM/</id>
+    <published>2020-05-19T11:09:30.133Z</published>
+    <updated>2020-05-19T11:12:59.470Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java内存模型（Java-Memory-Model）"><a href="#Java内存模型（Java-Memory-Model）" class="headerlink" title="Java内存模型（Java Memory Model）"></a>Java内存模型（Java Memory Model）</h1><p>屏蔽各种硬件和操作系统的内存访问差异,以便Java在各个平台下内存访问一致</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java内存模型（Java-Memory-Model）&quot;&gt;&lt;a href=&quot;#Java内存模型（Java-Memory-Model）&quot; class=&quot;headerlink&quot; title=&quot;Java内存模型（Java Memory Model）&quot;&gt;&lt;/a&gt;Java内
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

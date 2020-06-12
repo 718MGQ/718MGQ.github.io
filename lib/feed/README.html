@@ -1,0 +1,80 @@
+<h1 id="hexo-generator-feed"><a href="#hexo-generator-feed" class="headerlink" title="hexo-generator-feed"></a>hexo-generator-feed</h1><p><a href="https://travis-ci.org/hexojs/hexo-generator-feed" target="_blank" rel="noopener"><img src="https://travis-ci.org/hexojs/hexo-generator-feed.svg?branch=master" alt="Build Status"></a><br><a href="https://www.npmjs.com/package/hexo-generator-feed" target="_blank" rel="noopener"><img src="https://badge.fury.io/js/hexo-generator-feed.svg" alt="NPM version"></a><br><a href="https://coveralls.io/r/hexojs/hexo-generator-feed?branch=master" target="_blank" rel="noopener"><img src="https://img.shields.io/coveralls/hexojs/hexo-generator-feed.svg" alt="Coverage Status"></a></p>
+<p>Generate Atom 1.0 or RSS 2.0 feed.</p>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><pre><code class="bash">$ npm install hexo-generator-feed --save</code></pre>
+<ul>
+<li>Hexo 4: 2.x</li>
+<li>Hexo 3: 1.x</li>
+<li>Hexo 2: 0.x</li>
+</ul>
+<h2 id="Use"><a href="#Use" class="headerlink" title="Use"></a>Use</h2><p>In the <a href="https://hexo.io/docs/front-matter.html" target="_blank" rel="noopener">front-matter</a> of your post, you can optionally add a <code>description</code>, <code>intro</code> or <code>excerpt</code> setting to write a summary for the post. Otherwise the summary will default to the excerpt or the first 140 characters of the post.</p>
+<h2 id="Options"><a href="#Options" class="headerlink" title="Options"></a>Options</h2><p>You can configure this plugin in <code>_config.yml</code>.</p>
+<pre><code class="yaml"><span class="attr">feed:</span>
+  <span class="attr">type:</span> <span class="string">atom</span>
+  <span class="attr">path:</span> <span class="string">atom.xml</span>
+  <span class="attr">limit:</span> <span class="number">20</span>
+  <span class="attr">hub:</span>
+  <span class="attr">content:</span>
+  <span class="attr">content_limit:</span> <span class="number">140</span>
+  <span class="attr">content_limit_delim:</span> <span class="string">' '</span>
+  <span class="attr">order_by:</span> <span class="string">-date</span>
+  <span class="attr">icon:</span> <span class="string">icon.png</span>
+  <span class="attr">autodiscovery:</span> <span class="literal">true</span>
+  <span class="attr">template:</span></code></pre>
+<ul>
+<li><p><strong>type</strong> - Feed type. <code>atom</code> or <code>rss2</code>. Specify <code>[&#39;atom&#39;, &#39;rss2&#39;]</code> to output both types. (Default: <code>atom</code>)</p>
+<ul>
+<li><p>Example:</p>
+<pre><code class="yaml"><span class="attr">feed:</span>
+<span class="comment"># Generate atom feed</span>
+<span class="attr">type:</span> <span class="string">atom</span>
+
+<span class="comment"># Generate both atom and rss2 feeds</span>
+<span class="attr">type:</span>
+  <span class="bullet">-</span> <span class="string">atom</span>
+  <span class="bullet">-</span> <span class="string">rss2</span>
+<span class="attr">path:</span>
+  <span class="bullet">-</span> <span class="string">atom.xml</span>
+  <span class="bullet">-</span> <span class="string">rss2.xml</span></code></pre>
+</li>
+</ul>
+</li>
+<li><p><strong>path</strong> - Feed path. When both types are specified, path must follow the order of type value. (Default: atom.xml/rss2.xml)</p>
+</li>
+<li><p><strong>limit</strong> - Maximum number of posts in the feed (Use <code>0</code> or <code>false</code> to show all posts)</p>
+</li>
+<li><p><strong>hub</strong> - URL of the PubSubHubbub hubs (Leave it empty if you don’t use it)</p>
+</li>
+<li><p><strong>content</strong> - (optional) set to ‘true’ to include the contents of the entire post in the feed.</p>
+</li>
+<li><p><strong>content_limit</strong> - (optional) Default length of post content used in summary. Only used, if <strong>content</strong> setting is false and no custom post description present.</p>
+</li>
+<li><p><strong>content_limit_delim</strong> - (optional) If <strong>content_limit</strong> is used to shorten post contents, only cut at the last occurrence of this delimiter before reaching the character limit. Not used by default.</p>
+</li>
+<li><p><strong>order_by</strong> - Feed order-by. (Default: -date)</p>
+</li>
+<li><p><strong>icon</strong> - (optional) Custom feed icon. Defaults to a gravatar of email specified in the main config.</p>
+</li>
+<li><p><strong>autodiscovery</strong> - Add feed <a href="http://www.rssboard.org/rss-autodiscovery" target="_blank" rel="noopener">autodiscovery</a>. (Default: <code>true</code>)</p>
+<ul>
+<li>Many themes already offer this feature, so you may also need to adjust the theme’s config if you wish to disable it.</li>
+</ul>
+</li>
+<li><p><strong>template</strong> - Custom template path(s). This file will be used to generate feed xml file, see the default templates: <a href="atom.xml">atom.xml</a> and <a href="rss2.xml">rss2.xml</a>.</p>
+<ul>
+<li>It is possible to specify just one custom template, even when this plugin is configured to output both feed types,<pre><code class="yaml"><span class="comment"># (Optional) Exclude custom template from being copied into public/ folder</span>
+<span class="comment"># Alternatively, you could also prepend an underscore to its filename, e.g. _custom.xml</span>
+<span class="comment"># https://hexo.io/docs/configuration#Include-Exclude-Files-or-Folders</span>
+<span class="attr">exclude:</span>
+<span class="bullet">-</span> <span class="string">'custom.xml'</span>
+<span class="attr">feed:</span>
+<span class="attr">type:</span>
+  <span class="bullet">-</span> <span class="string">atom</span>
+  <span class="bullet">-</span> <span class="string">rss2</span>
+<span class="attr">template:</span>
+  <span class="bullet">-</span> <span class="string">./source/custom.xml</span>
+<span class="comment"># atom will be generated using custom.xml</span>
+<span class="comment"># rss2 will be generated using the default template instead</span></code></pre>
+</li>
+</ul>
+</li>
+</ul>

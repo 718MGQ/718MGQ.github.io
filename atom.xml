@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>G.Miao</title>
-  <icon>http://mgq.ink/icon.png</icon>
+  <title>G.Miao&#39;s Blog</title>
+  <icon>http://https//718mgq.github.io/icon.png</icon>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://mgq.ink/"/>
+  <link href="http://https//718mgq.github.io/"/>
   <updated>2020-06-11T10:41:38.361Z</updated>
-  <id>http://mgq.ink/</id>
+  <id>http://https//718mgq.github.io/</id>
   
   <author>
     <name>miaoguangqiang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>page_test</title>
-    <link href="http://mgq.ink/2020/06/11/page-test/"/>
-    <id>http://mgq.ink/2020/06/11/page-test/</id>
+    <link href="http://https//718mgq.github.io/2020/06/11/page-test/"/>
+    <id>http://https//718mgq.github.io/2020/06/11/page-test/</id>
     <published>2020-06-11T10:41:38.000Z</published>
     <updated>2020-06-11T10:41:38.361Z</updated>
     
@@ -32,36 +32,9 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://mgq.ink/2020/05/29/test/"/>
-    <id>http://mgq.ink/2020/05/29/test/</id>
-    <published>2020-05-29T09:48:28.000Z</published>
-    <updated>2020-05-30T08:04:57.369Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;这是一个测试文件&quot;&gt;&lt;a href=&quot;#这是一个测试文件&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="test" scheme="http://mgq.ink/categories/test/"/>
-    
-    
-      <category term="test" scheme="http://mgq.ink/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://mgq.ink/2020/05/29/hello-world/"/>
-    <id>http://mgq.ink/2020/05/29/hello-world/</id>
+    <link href="http://https//718mgq.github.io/2020/05/29/hello-world/"/>
+    <id>http://https//718mgq.github.io/2020/05/29/hello-world/</id>
     <published>2020-05-29T01:37:27.491Z</published>
     <updated>2020-05-29T01:37:27.491Z</updated>
     
@@ -83,8 +56,8 @@
   
   <entry>
     <title>Java</title>
-    <link href="http://mgq.ink/2020/05/20/Java/"/>
-    <id>http://mgq.ink/2020/05/20/Java/</id>
+    <link href="http://https//718mgq.github.io/2020/05/20/Java/"/>
+    <id>http://https//718mgq.github.io/2020/05/20/Java/</id>
     <published>2020-05-20T02:07:34.079Z</published>
     <updated>2020-05-20T02:16:31.848Z</updated>
     
@@ -107,8 +80,8 @@
   
   <entry>
     <title>JMM</title>
-    <link href="http://mgq.ink/2020/05/19/JMM/"/>
-    <id>http://mgq.ink/2020/05/19/JMM/</id>
+    <link href="http://https//718mgq.github.io/2020/05/19/JMM/"/>
+    <id>http://https//718mgq.github.io/2020/05/19/JMM/</id>
     <published>2020-05-19T11:09:30.133Z</published>
     <updated>2020-05-19T11:12:59.470Z</updated>
     
@@ -125,6 +98,33 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://https//718mgq.github.io/2020/04/29/test/"/>
+    <id>http://https//718mgq.github.io/2020/04/29/test/</id>
+    <published>2020-04-29T09:48:28.000Z</published>
+    <updated>2020-06-12T03:37:00.656Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;这是一个测试文件&quot;&gt;&lt;a href=&quot;#这是一个测试文件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://https://718mgq.github.io/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://https://718mgq.github.io/tags/test/"/>
     
   </entry>
   

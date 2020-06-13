@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-06-12T12:07:58.485Z</updated>
+  <updated>2020-06-13T07:16:55.106Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>整数反转</title>
+    <link href="http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/"/>
+    <id>http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/</id>
+    <published>2020-06-13T05:14:04.000Z</published>
+    <updated>2020-06-13T07:16:55.106Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/reverse-integer/&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>链表逆置</title>
     <link href="http://https//718mgq.github.io/2020/06/12/alg-reverse-list/"/>
     <id>http://https//718mgq.github.io/2020/06/12/alg-reverse-list/</id>
     <published>2020-06-12T12:00:04.000Z</published>
-    <updated>2020-06-12T12:07:58.485Z</updated>
+    <updated>2020-06-13T05:14:38.264Z</updated>
     
     <summary type="html">
     

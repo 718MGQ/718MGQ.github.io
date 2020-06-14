@@ -31,7 +31,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://https/images/threeAndFour.png">
 <meta property="article:published_time" content="2020-06-14T14:38:20.000Z">
-<meta property="article:modified_time" content="2020-06-14T15:49:50.728Z">
+<meta property="article:modified_time" content="2020-06-14T16:06:52.735Z">
 <meta property="article:author" content="miaoguangqiang">
 <meta property="article:tag" content="面试题">
 <meta property="article:tag" content="internet">
@@ -228,10 +228,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-06-14 22:38:20 / 修改时间：23:49:50" itemprop="dateCreated datePublished" datetime="2020-06-14T22:38:20+08:00">2020-06-14</time>
+              <time title="创建时间：2020-06-14 22:38:20" itemprop="dateCreated datePublished" datetime="2020-06-14T22:38:20+08:00">2020-06-14</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-15 00:06:52" itemprop="dateModified" datetime="2020-06-15T00:06:52+08:00">2020-06-15</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -320,6 +326,10 @@
 该队列为每个客户端的SYN包(SYN=i)开设一个条目，
 该条目表明服务器已收到SYN包，并向客户发出确认，正在等待客户的确认包。
 这些条目所标识的连接在服务器处于SYN_ RECV状态，当服务器收到客户的确认包时，删除该条目，服务器进入ESTABLISHED状态。</code></pre></li>
+<li><p><strong>DOS攻击</strong></p>
+<pre><code>因为服务器会维护一个半连接的队列，那如果我们向服务器发送大量伪造的无效的半连接请求，便会消耗cpu和内存，
+当伪造的SYN包长时间占用半连接队列，正常的SYN请求遍会被抛弃，服务器便面临着网络阻塞甚至系统瘫痪的风险，
+这也是比较常见的一种DOS攻击方式。</code></pre></li>
 </ol>
 <hr>
 

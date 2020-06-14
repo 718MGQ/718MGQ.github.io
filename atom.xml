@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-06-13T07:16:55.106Z</updated>
+  <updated>2020-06-14T15:49:50.728Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -17,11 +17,73 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>三次握手、四次挥手</title>
+    <link href="http://https//718mgq.github.io/2020/06/14/net-three-and-four/"/>
+    <id>http://https//718mgq.github.io/2020/06/14/net-three-and-four/</id>
+    <published>2020-06-14T14:38:20.000Z</published>
+    <updated>2020-06-14T15:49:50.728Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;三次握手&quot;&gt;&lt;a href=&quot;#三次握手&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="internet" scheme="http://https://718mgq.github.io/tags/internet/"/>
+    
+      <category term="TCP" scheme="http://https://718mgq.github.io/tags/TCP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DOS攻击</title>
+    <link href="http://https//718mgq.github.io/2020/06/13/net-dos/"/>
+    <id>http://https//718mgq.github.io/2020/06/13/net-dos/</id>
+    <published>2020-06-13T11:00:04.000Z</published>
+    <updated>2020-06-14T15:25:52.939Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;什么是DOS攻击&quot;&gt;&lt;a href=&quot;#什么是DOS攻击&quot; class=&quot;headerlink&quot; title=&quot;什么是DOS攻击&quot;&gt;&lt;/a&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="网络" scheme="http://https://718mgq.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="dos" scheme="http://https://718mgq.github.io/tags/dos/"/>
+    
+  </entry>
+  
+  <entry>
     <title>整数反转</title>
     <link href="http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/"/>
     <id>http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/</id>
     <published>2020-06-13T05:14:04.000Z</published>
-    <updated>2020-06-13T07:16:55.106Z</updated>
+    <updated>2020-06-14T15:25:37.412Z</updated>
     
     <summary type="html">
     
@@ -43,6 +105,8 @@
     
       <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
     
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
   </entry>
   
   <entry>
@@ -50,7 +114,7 @@
     <link href="http://https//718mgq.github.io/2020/06/12/alg-reverse-list/"/>
     <id>http://https//718mgq.github.io/2020/06/12/alg-reverse-list/</id>
     <published>2020-06-12T12:00:04.000Z</published>
-    <updated>2020-06-13T05:14:38.264Z</updated>
+    <updated>2020-06-14T15:25:44.550Z</updated>
     
     <summary type="html">
     
@@ -72,6 +136,8 @@
     
       <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
     
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
   </entry>
   
   <entry>
@@ -79,7 +145,7 @@
     <link href="http://https//718mgq.github.io/2020/06/07/alg-binary/"/>
     <id>http://https//718mgq.github.io/2020/06/07/alg-binary/</id>
     <published>2020-06-07T06:58:21.000Z</published>
-    <updated>2020-06-12T12:04:42.848Z</updated>
+    <updated>2020-06-14T15:25:29.895Z</updated>
     
     <summary type="html">
     
@@ -101,6 +167,8 @@
     
       <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
     
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
   </entry>
   
   <entry>
@@ -118,29 +186,6 @@
         
           &lt;h4 id=&quot;volatile修饰&quot;&gt;&lt;a href=&quot;#volatile修饰&quot; class=&quot;headerlink&quot; title=&quot;volatile修饰&quot;&gt;&lt;/a&gt;volatile修饰&lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;变量声明了volatile后，跳过cpu
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>JMM</title>
-    <link href="http://https//718mgq.github.io/2020/05/19/JMM/"/>
-    <id>http://https//718mgq.github.io/2020/05/19/JMM/</id>
-    <published>2020-05-19T11:09:30.133Z</published>
-    <updated>2020-05-19T11:12:59.470Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Java内存模型（Java-Memory-Model）&quot;&gt;&lt;a href=&quot;#Java内存模型（Java-Memory-Model）&quot; class=&quot;headerlink&quot; title=&quot;Java内存模型（Java Memory
         
       
     

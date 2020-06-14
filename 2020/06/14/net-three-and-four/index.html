@@ -22,22 +22,24 @@
     var CONFIG = {"hostname":"https","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="摘要 二分法查找：又称折半查找。适用于有序数据集合的目标值查找。  二分法思想：假设有一个按升序排好序的数列data，查找目标值target，过程如下： 1.将数列进行折半，判断data[mid]是否等于target, 相等则返回index, 否则，判断中间值和target大小； 2.若 target &gt; data[mid]，将data右一半执行第一步，否则，将data左一半执行第一步； 3">
+  <meta name="description" content="三次握手 在TCP&#x2F;IP协议中，TCP协议提供可靠的连接服务，采用三次握手建立一个连接，客户端和服务器端是相对的概念，本文我们以客户端向服务器端发送为例。   第一次握手：客户端向服务器端发送一个SYN报文，报文中包含了一个动态生成的序列号i（至于为什么动态生成可以自己想想），这时，客户端处于SYN_SEND状态（打开一个连接），表示已向服务器发送了连接请求；   第二次握手：服务器端接收到连接请">
 <meta property="og:type" content="article">
-<meta property="og:title" content="二分法查找">
-<meta property="og:url" content="http://https//718mgq.github.io/2020/06/07/alg-binary/index.html">
+<meta property="og:title" content="三次握手、四次挥手">
+<meta property="og:url" content="http://https//718mgq.github.io/2020/06/14/net-three-and-four/index.html">
 <meta property="og:site_name" content="G.Miao&#39;s Blog">
-<meta property="og:description" content="摘要 二分法查找：又称折半查找。适用于有序数据集合的目标值查找。  二分法思想：假设有一个按升序排好序的数列data，查找目标值target，过程如下： 1.将数列进行折半，判断data[mid]是否等于target, 相等则返回index, 否则，判断中间值和target大小； 2.若 target &gt; data[mid]，将data右一半执行第一步，否则，将data左一半执行第一步； 3">
+<meta property="og:description" content="三次握手 在TCP&#x2F;IP协议中，TCP协议提供可靠的连接服务，采用三次握手建立一个连接，客户端和服务器端是相对的概念，本文我们以客户端向服务器端发送为例。   第一次握手：客户端向服务器端发送一个SYN报文，报文中包含了一个动态生成的序列号i（至于为什么动态生成可以自己想想），这时，客户端处于SYN_SEND状态（打开一个连接），表示已向服务器发送了连接请求；   第二次握手：服务器端接收到连接请">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-06-07T06:58:21.000Z">
-<meta property="article:modified_time" content="2020-06-14T15:25:29.895Z">
+<meta property="og:image" content="http://https/images/threeAndFour.png">
+<meta property="article:published_time" content="2020-06-14T14:38:20.000Z">
+<meta property="article:modified_time" content="2020-06-14T15:49:50.728Z">
 <meta property="article:author" content="miaoguangqiang">
-<meta property="article:tag" content="leetcode">
-<meta property="article:tag" content="algorithm">
 <meta property="article:tag" content="面试题">
+<meta property="article:tag" content="internet">
+<meta property="article:tag" content="TCP">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://https/images/threeAndFour.png">
 
-<link rel="canonical" href="http://https//718mgq.github.io/2020/06/07/alg-binary/">
+<link rel="canonical" href="http://https//718mgq.github.io/2020/06/14/net-three-and-four/">
 
 
 <script id="page-configurations">
@@ -50,7 +52,7 @@
   };
 </script>
 
-  <title>二分法查找 | G.Miao's Blog</title>
+  <title>三次握手、四次挥手 | G.Miao's Blog</title>
   
 
 
@@ -204,7 +206,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://https//718mgq.github.io/2020/06/07/alg-binary/">
+    <link itemprop="mainEntityOfPage" href="http://https//718mgq.github.io/2020/06/14/net-three-and-four/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/xhr.jpg">
@@ -217,7 +219,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          二分法查找
+          三次握手、四次挥手
         </h1>
 
         <div class="post-meta">
@@ -226,23 +228,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-06-07 14:58:21" itemprop="dateCreated datePublished" datetime="2020-06-07T14:58:21+08:00">2020-06-07</time>
+              <time title="创建时间：2020-06-14 22:38:20 / 修改时间：23:49:50" itemprop="dateCreated datePublished" datetime="2020-06-14T22:38:20+08:00">2020-06-14</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-06-14 23:25:29" itemprop="dateModified" datetime="2020-06-14T23:25:29+08:00">2020-06-14</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">算法</span></a>
+                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" itemprop="url" rel="index"><span itemprop="name">计算机网络</span></a>
                 </span>
             </span>
 
@@ -262,8 +258,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/06/07/alg-binary/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/07/alg-binary/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/06/14/net-three-and-four/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/14/net-three-and-four/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -278,25 +274,53 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><blockquote>
-<p>二分法查找：又称折半查找。适用于有序数据集合的目标值查找。</p>
+        <h4 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h4><blockquote>
+<p>在TCP/IP协议中，TCP协议提供可靠的连接服务，采用三次握手建立一个连接，客户端和服务器端是相对的概念，本文我们以客户端向服务器端发送为例。</p>
 </blockquote>
-<pre><code>二分法思想：假设有一个按升序排好序的数列data，查找目标值target，过程如下：
-1.将数列进行折半，判断data[mid]是否等于target, 相等则返回index, 否则，判断中间值和target大小；
-2.若 target &gt; data[mid]，将data右一半执行第一步，否则，将data左一半执行第一步；
-3.返回index</code></pre><h3 id="code"><a href="#code" class="headerlink" title="code"></a>code</h3><p>废话不多说，上代码</p>
-<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="symbol">BinarySearch</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="built_in">int</span> getIndex(<span class="built_in">int</span>[] data, <span class="built_in">int</span> target) &#123;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">int</span> left = <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">int</span> right = data.length - <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (left &lt;= right) &#123;</span><br><span class="line">            <span class="comment">//定义一个中间值索引</span></span><br><span class="line">            <span class="built_in">int</span> mid = left + (right - left) / <span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span>(data[mid] == target) &#123;</span><br><span class="line">                <span class="comment">//查到目标值，直接返回索引值</span></span><br><span class="line">                <span class="keyword">return</span> mid;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span>(data[mid] &lt; target) &#123;</span><br><span class="line">                <span class="comment">//目标值在数列的右半部分</span></span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">//目标值在数列的左半部分</span></span><br><span class="line">                right = mid - <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//结束，未找到target，返回-1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="变异"><a href="#变异" class="headerlink" title="变异"></a>变异</h3><blockquote>
-<p>假如数列中出现了重复项，那我们查到的index便不确定，那如何在重复项得到最小的一个位置呢？</p>
+<blockquote>
+<p><strong>第一次握手：客户端向服务器端发送一个SYN报文，报文中包含了一个动态生成的序列号i（至于为什么动态生成可以自己想想），这时，客户端处于SYN_SEND状态（打开一个连接），表示已向服务器发送了连接请求；</strong></p>
 </blockquote>
-<h4 id="二分查找-顺序查找"><a href="#二分查找-顺序查找" class="headerlink" title="二分查找 + 顺序查找"></a>二分查找 + 顺序查找</h4><figure class="highlight stan"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">public <span class="keyword">int</span> getRepeatIndex(<span class="keyword">int</span>[] <span class="title">data</span>, <span class="keyword">int</span> <span class="built_in">target</span>) &#123;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> right = <span class="title">data</span>.length - <span class="number">1</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">while</span> (left &lt;= right) &#123;</span><br><span class="line">            <span class="keyword">int</span> mid = left + (right - left) / <span class="number">2</span>;</span><br><span class="line">            <span class="comment">//这里做一改变</span></span><br><span class="line">            <span class="comment">//如果定位到目标值，不立即返回，顺序查找到最靠前的一个</span></span><br><span class="line">            <span class="keyword">if</span>(<span class="title">data</span>[mid] == <span class="built_in">target</span>) &#123;</span><br><span class="line">                <span class="keyword">while</span> (mid &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span>(<span class="title">data</span>[mid] != <span class="built_in">target</span>) &#123;</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    mid --;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="comment">//循环时多-1，返回时加上</span></span><br><span class="line">                <span class="keyword">return</span> mid + <span class="number">1</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="title">data</span>[mid] &lt; <span class="built_in">target</span>) &#123;</span><br><span class="line">                <span class="comment">//目标值在数列的右半部分</span></span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="comment">//目标值在数列的左半部分</span></span><br><span class="line">                right = mid - <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//如果可以找到，left则为对应的索引值</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="title">data</span>[left] == <span class="built_in">target</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> left;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="二分法到底"><a href="#二分法到底" class="headerlink" title="二分法到底"></a>二分法到底</h4><blockquote>
-<p>可能大多数考虑到上述的情况就结束了，仔细想想，还可不可以更快一点儿呢，回答是肯定的</p>
+<blockquote>
+<p><strong>第二次握手：服务器端接收到连接请求，认为可以建起连接，回发一个ACK确认报文，内容将序列号i+1,同时，生成一个序列号j，发送一个SYN报文，内容为序列号j，服务器端处于SYN_REVD状态（连接请求已到达，等待确认），表示等待客户端确认连接；</strong></p>
 </blockquote>
-<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="built_in">int</span> getRepeatIndex(<span class="built_in">int</span>[] data, <span class="built_in">int</span> target) &#123;</span><br><span class="line">        <span class="built_in">int</span> left = <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">int</span> right = data.length - <span class="number">1</span>;</span><br><span class="line">        <span class="comment">//如果数组空直接返回，防止数组越界</span></span><br><span class="line">        <span class="keyword">if</span>(data.length == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//'&lt;'不是'&lt;=',如果等于会出现死循环</span></span><br><span class="line">        <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">            <span class="built_in">int</span> mid = left + (right - left) / <span class="number">2</span>;</span><br><span class="line">            <span class="comment">//关键部位！！！</span></span><br><span class="line">            <span class="comment">//保持要查到的值始终是最小索引的，二分查比顺序查要快</span></span><br><span class="line">            <span class="keyword">if</span>(data[mid] &gt;= target) &#123;</span><br><span class="line">                right = mid;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//如果可以找到，left则为对应的索引值</span></span><br><span class="line">        <span class="keyword">if</span>(data[left] == target) &#123;</span><br><span class="line">            <span class="keyword">return</span> left;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>第三次握手：客户端接收到服务器端的反馈，立马发送一个ACK报文，内容为j+1，便是确认连接，这时客户端状态为establish(正常传输状态)</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>服务器端接收到ACK报文后，连接建立完成。</strong></p>
+</blockquote>
+<blockquote>
+<h6 id="过程如下图"><a href="#过程如下图" class="headerlink" title="过程如下图"></a>过程如下图</h6></blockquote>
+<img src="/images/threeAndFour.png" width="80%">
 
+<h4 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h4><p>依然以客户端主动发起断开连接为例。</p>
+<blockquote>
+<p><strong>第一次挥手：客户端主动发起断开请求，动态生成一个序列号M，向服务器发送一个FIN报文，此时，客户端处于FIN_WAIT1状态；</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>第二次挥手： 服务器端收到客户端的断开请求，发送确认报文ACK(M+1)，告诉客户端，我知道了，等我处理完这波数据，此时服务器状态为CLOSE_WAIT;</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>第三次挥手： 等服务器处理完，准备要断开连接了，向客户端发送一个FIN报文，伴有动态生成的序列号N，此时服务器状态LAST_ACK;</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>第四次挥手： 客户端收到服务器发来的断开连接报文，则回复一个ACK报文N+1，表示我确认断开连接，这时客户端处于</strong> <strong><em>TIME_WAIT状态</em></strong> <strong>，很关键的状态，面试高频出现；</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>服务端收到 ACK 报文之后，就处于关闭连接了，处于 CLOSED 状态。</strong></p>
+</blockquote>
+<h6 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h6><ol>
+<li><p><strong>TIME_WAIT状态</strong></p>
+<pre><code>为什么客户端发送 ACK 之后不直接关闭，而是要等一阵子才关闭。这其中的原因就是，
+要确保服务器是否已经收到了我们的 ACK 报文，
+如果没有收到的话，服务器会重新发 FIN 报文给客户端，客户端再次收到 ACK 报文之后，就知道之前的 ACK 报文丢失了，然后再次发送 ACK 报文。
+至于 TIME_WAIT 持续的时间至少是一个报文的来回时间。一般会设置一个计时，如果过了这个计时没有再次收到 FIN 报文，则代表对方成功收到 ACK 报文，此时处于 CLOSED 状态。</code></pre></li>
+<li><p><strong>半连接</strong><br>  <strong>即发送了SYN包还未收到ACK确认包的连接状态为半连接状态，还未完成三次握手TCP连接。</strong></p>
+<pre><code>半连接队列:在三次握手协议中，服务器维护一个半连接队列；
+该队列为每个客户端的SYN包(SYN=i)开设一个条目，
+该条目表明服务器已收到SYN包，并向客户发出确认，正在等待客户的确认包。
+这些条目所标识的连接在服务器处于SYN_ RECV状态，当服务器收到客户的确认包时，删除该条目，服务器进入ESTABLISHED状态。</code></pre></li>
+</ol>
 <hr>
 
     </div>
@@ -322,9 +346,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/leetcode/" rel="tag"># leetcode</a>
-              <a href="/tags/algorithm/" rel="tag"># algorithm</a>
               <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" rel="tag"># 面试题</a>
+              <a href="/tags/internet/" rel="tag"># internet</a>
+              <a href="/tags/TCP/" rel="tag"># TCP</a>
           </div>
 
         
@@ -333,13 +357,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/05/20/Java/" rel="prev" title="Java">
-      <i class="fa fa-chevron-left"></i> Java
+    <a href="/2020/06/13/net-dos/" rel="prev" title="DOS攻击">
+      <i class="fa fa-chevron-left"></i> DOS攻击
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/06/12/alg-reverse-list/" rel="next" title="链表逆置">
-      链表逆置 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -399,7 +420,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#code"><span class="nav-number">2.</span> <span class="nav-text">code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#变异"><span class="nav-number">3.</span> <span class="nav-text">变异</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#二分查找-顺序查找"><span class="nav-number">3.1.</span> <span class="nav-text">二分查找 + 顺序查找</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二分法到底"><span class="nav-number">3.2.</span> <span class="nav-text">二分法到底</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#三次握手"><span class="nav-number">1.</span> <span class="nav-text">三次握手</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#过程如下图"><span class="nav-number">1.0.1.</span> <span class="nav-text">过程如下图</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四次挥手"><span class="nav-number">2.</span> <span class="nav-text">四次挥手</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#扩展"><span class="nav-number">2.0.1.</span> <span class="nav-text">扩展</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

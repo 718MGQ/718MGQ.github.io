@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-06-15T02:17:05.581Z</updated>
+  <updated>2020-06-20T08:18:49.281Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -15,6 +15,101 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网络分层</title>
+    <link href="http://https//718mgq.github.io/2020/06/20/net-OSI/"/>
+    <id>http://https//718mgq.github.io/2020/06/20/net-OSI/</id>
+    <published>2020-06-20T07:34:22.000Z</published>
+    <updated>2020-06-20T08:18:49.281Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文简单介绍一下两种分层模型：OSI网络分层和TCP/IP网络分层。&lt;/p&gt;
+&lt;h3 id=&quot;OSI模型&quot;&gt;&lt;a href=&quot;#OSI模型&quot; class=&quot;headerlink&quot; title=&quot;OSI模型&quot;&gt;&lt;/a&gt;OSI模型&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;OSI模型一共分为七层，由上至下分别是：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;应用层&lt;/li&gt;
+&lt;li&gt;表达层&lt;/li&gt;
+&lt;li&gt;会话层&lt;/li&gt;
+&lt;li&gt;传输层&lt;/li&gt;
+&lt;li&gt;网络层&lt;/li&gt;
+&lt;li&gt;数据链路层&lt;/li&gt;
+&lt;li&gt;物理层
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="网络" scheme="http://https://718mgq.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="TCP" scheme="http://https://718mgq.github.io/tags/TCP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进程通信</title>
+    <link href="http://https//718mgq.github.io/2020/06/20/net-IPC/"/>
+    <id>http://https//718mgq.github.io/2020/06/20/net-IPC/</id>
+    <published>2020-06-20T03:06:47.000Z</published>
+    <updated>2020-06-20T07:34:28.487Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h4&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们在面试中常常被问到进程通信的方式有哪些，感觉与我们平时的开发工作没有关系，其实我们也是一直在用它&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;进程通信方式&quot;&gt;&lt;a href=&quot;#进程通信方式&quot; class=&quot;headerlink&quot; title=&quot;进程通信方式&quot;&gt;&lt;/a&gt;进程通信方式&lt;/h4&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、管道（pipe）&lt;br&gt;        管道又分为无名管道（即匿名管道）和有名管道&lt;br&gt;        其实我们平时经常用到无名管道，在Linux命令中”|”就是无名管道的使用，&lt;br&gt;        他将一个进程的输出传入到另一个进程中，比如：&lt;br&gt;        &lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cat&lt;/span&gt; xxxlog | &lt;span class=&quot;keyword&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;xxx&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;        有名管道可以通过 mkfifo &lt;pipename&gt; 命令创建&lt;br&gt;        &lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;mkfifo pipe&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2、消息队列&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="进程通信" scheme="http://https://718mgq.github.io/tags/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java面试图谱</title>
+    <link href="http://https//718mgq.github.io/2020/06/16/java-interview/"/>
+    <id>http://https//718mgq.github.io/2020/06/16/java-interview/</id>
+    <published>2020-06-16T01:06:35.000Z</published>
+    <updated>2020-06-20T03:58:05.256Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;简单列出Java面试图谱，仅供参考！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src=&quot;/images/Java开发知识储备.png&quot; width=&quot;90%&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="Java面试图谱" scheme="http://https://718mgq.github.io/categories/Java%E9%9D%A2%E8%AF%95%E5%9B%BE%E8%B0%B1/"/>
+    
+    
+      <category term="Java面试" scheme="http://https://718mgq.github.io/tags/Java%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="图谱" scheme="http://https://718mgq.github.io/tags/%E5%9B%BE%E8%B0%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>三次握手、四次挥手</title>
@@ -75,7 +170,7 @@
     <link href="http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/"/>
     <id>http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/</id>
     <published>2020-06-13T05:14:04.000Z</published>
-    <updated>2020-06-15T02:17:36.620Z</updated>
+    <updated>2020-06-20T07:29:36.454Z</updated>
     
     <summary type="html">
     
@@ -103,7 +198,7 @@
     <link href="http://https//718mgq.github.io/2020/06/12/alg-reverse-list/"/>
     <id>http://https//718mgq.github.io/2020/06/12/alg-reverse-list/</id>
     <published>2020-06-12T12:00:04.000Z</published>
-    <updated>2020-06-15T02:17:37.120Z</updated>
+    <updated>2020-06-20T03:34:49.123Z</updated>
     
     <summary type="html">
     
@@ -134,11 +229,12 @@
     <link href="http://https//718mgq.github.io/2020/06/07/alg-binary/"/>
     <id>http://https//718mgq.github.io/2020/06/07/alg-binary/</id>
     <published>2020-06-07T06:58:21.000Z</published>
-    <updated>2020-06-15T02:17:35.025Z</updated>
+    <updated>2020-06-20T07:29:11.885Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;blockquote&gt;
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
 &lt;p&gt;二分法查找：又称折半查找。适用于有序数据集合的目标值查找。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre&gt;&lt;code&gt;二分法思想：假设有一个按升序排好序的数列data，查找目标值target，过程如下：

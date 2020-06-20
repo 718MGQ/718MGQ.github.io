@@ -22,22 +22,22 @@
     var CONFIG = {"hostname":"https","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="volatile修饰 变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量   volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取 volatile声明的变量禁止指令重排序优化  volatile性能 volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内">
+  <meta name="description" content="本文简单介绍一下两种分层模型：OSI网络分层和TCP&#x2F;IP网络分层。 OSI模型 OSI模型一共分为七层，由上至下分别是：   应用层 表达层 会话层 传输层 网络层 数据链路层 物理层">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java">
-<meta property="og:url" content="http://https//718mgq.github.io/2020/05/20/Java/index.html">
+<meta property="og:title" content="网络分层">
+<meta property="og:url" content="http://https//718mgq.github.io/2020/06/20/net-OSI/index.html">
 <meta property="og:site_name" content="G.Miao&#39;s Blog">
-<meta property="og:description" content="volatile修饰 变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量   volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取 volatile声明的变量禁止指令重排序优化  volatile性能 volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内">
+<meta property="og:description" content="本文简单介绍一下两种分层模型：OSI网络分层和TCP&#x2F;IP网络分层。 OSI模型 OSI模型一共分为七层，由上至下分别是：   应用层 表达层 会话层 传输层 网络层 数据链路层 物理层">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-20T02:07:34.079Z">
-<meta property="article:modified_time" content="2020-05-20T02:16:31.848Z">
+<meta property="article:published_time" content="2020-06-20T07:34:22.000Z">
+<meta property="article:modified_time" content="2020-06-20T08:18:49.281Z">
 <meta property="article:author" content="miaoguangqiang">
-<meta property="article:tag" content="博客">
-<meta property="article:tag" content="Java">
-<meta property="article:tag" content="面试">
+<meta property="article:tag" content="面试题">
+<meta property="article:tag" content="网络">
+<meta property="article:tag" content="TCP">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://https//718mgq.github.io/2020/05/20/Java/">
+<link rel="canonical" href="http://https//718mgq.github.io/2020/06/20/net-OSI/">
 
 
 <script id="page-configurations">
@@ -50,7 +50,7 @@
   };
 </script>
 
-  <title>Java | G.Miao's Blog</title>
+  <title>网络分层 | G.Miao's Blog</title>
   
 
 
@@ -204,7 +204,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://https//718mgq.github.io/2020/05/20/Java/">
+    <link itemprop="mainEntityOfPage" href="http://https//718mgq.github.io/2020/06/20/net-OSI/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/xhr.jpg">
@@ -217,7 +217,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Java
+          网络分层
         </h1>
 
         <div class="post-meta">
@@ -228,7 +228,16 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-05-20 10:07:34 / 修改时间：10:16:31" itemprop="dateCreated datePublished" datetime="2020-05-20T10:07:34+08:00">2020-05-20</time>
+              <time title="创建时间：2020-06-20 15:34:22 / 修改时间：16:18:49" itemprop="dateCreated datePublished" datetime="2020-06-20T15:34:22+08:00">2020-06-20</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" itemprop="url" rel="index"><span itemprop="name">计算机网络</span></a>
+                </span>
             </span>
 
           
@@ -247,8 +256,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/05/20/Java/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/05/20/Java/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/06/20/net-OSI/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/20/net-OSI/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -263,16 +272,27 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h4 id="volatile修饰"><a href="#volatile修饰" class="headerlink" title="volatile修饰"></a>volatile修饰</h4><blockquote>
-<p>变量声明了volatile后，跳过cpu cache步骤，jvm保证每次直接从内存中读取变量</p>
+        <p>本文简单介绍一下两种分层模型：OSI网络分层和TCP/IP网络分层。</p>
+<h3 id="OSI模型"><a href="#OSI模型" class="headerlink" title="OSI模型"></a>OSI模型</h3><blockquote>
+<p>OSI模型一共分为七层，由上至下分别是：</p>
 </blockquote>
 <ul>
-<li>volatile声明的变量所有线程可见，即当修改一个变量值会立即更新直接更新内存，读取是也直接从内存中刷新读取</li>
-<li>volatile声明的变量禁止指令重排序优化</li>
+<li>应用层</li>
+<li>表达层</li>
+<li>会话层</li>
+<li>传输层</li>
+<li>网络层</li>
+<li>数据链路层</li>
+<li>物理层<a id="more"></a>
+
+</li>
 </ul>
-<h4 id="volatile性能"><a href="#volatile性能" class="headerlink" title="volatile性能"></a>volatile性能</h4><blockquote>
-<p>volatile 的读性能消耗与普通变量几乎相同，但是写操作稍慢，因为它需要在本地代码中插入许多内存屏障指令来保证处理器不发生乱序执行</p>
-</blockquote>
+<h4 id="应用层-Application"><a href="#应用层-Application" class="headerlink" title="应用层(Application)"></a>应用层(Application)</h4><pre><code>应用层的协议一般有：HTTP、FTP、DNS等，这一层是最接近用户的一层。</code></pre><h4 id="表达层-Presentation"><a href="#表达层-Presentation" class="headerlink" title="表达层(Presentation)"></a>表达层(Presentation)</h4><pre><code>该层的主要功能：转换，压缩和加密，常见的加密协议为SSL。</code></pre><h4 id="会话层-Session"><a href="#会话层-Session" class="headerlink" title="会话层(Session)"></a>会话层(Session)</h4><pre><code>我们可以把会话层理解为两个应用进程之间的逻辑连接，同时会话层还负责了管理和确定传输模式
+计算机传输数据有三种模式：单向、半双工、全双工</code></pre><h4 id="传输层-Transport"><a href="#传输层-Transport" class="headerlink" title="传输层(Transport)"></a>传输层(Transport)</h4><pre><code>传输层就是表面意思传输了，端到端，主机到主机的传输
+这一层最主要的就是TCP、UDP啦，包括三次握手、四次挥手是必须要会的</code></pre><h4 id="网络层-Network"><a href="#网络层-Network" class="headerlink" title="网络层(Network)"></a>网络层(Network)</h4><pre><code>网络层需要提供三个最基本的功能：地址、路由、分段和重组
+网络层上最重要的协议IP（Internet Protocol），就是为了这些功能而设计的。目前有IPv4和IPv6两个版本。</code></pre><h4 id="数据链路层-Data-Link"><a href="#数据链路层-Data-Link" class="headerlink" title="数据链路层(Data Link)"></a>数据链路层(Data Link)</h4><pre><code>数据链路层又分为两个子层：逻辑链路控制层(Logical Link Control)和介质访问控制层(Media Access Control)
+数据链路层就是关心如何把数据从一个设备发送到另一个设备</code></pre><h4 id="物理层-Physical"><a href="#物理层-Physical" class="headerlink" title="物理层(Physical)"></a>物理层(Physical)</h4><pre><code>物理层位于OSI的底层，所有其他层的数据最终都必须经由物理层才能发送出去。</code></pre><hr>
+<h3 id="TCP-IP模型"><a href="#TCP-IP模型" class="headerlink" title="TCP/IP模型"></a>TCP/IP模型</h3><pre><code>TCP/IP模型分为四层：应用层（Application）、传输层（Host-to-Host Transport）、互联网层(Internet)、网络接口层(Network Interface)。</code></pre><p>在TCP/IP模型中并不包含物理层。另外，两个重要的协议ARP（Address Resolution Protocol，地址解析协议）和RARP（Reverse Address Resolution Protocol，反向地址转换协议），在OSI模型中一般被认为是在位于第二层数据链路层和第三层网络层之间，而在TCP/IP模型中则位于网络接口层。(此段转载自掘金：<a href="https://juejin.im/post/5a98e1f7f265da237410694e" target="_blank" rel="noopener">https://juejin.im/post/5a98e1f7f265da237410694e</a> 作者：MinGRn）</p>
 
     </div>
 
@@ -296,17 +316,22 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" rel="tag"># 面试题</a>
+              <a href="/tags/%E7%BD%91%E7%BB%9C/" rel="tag"># 网络</a>
+              <a href="/tags/TCP/" rel="tag"># TCP</a>
+          </div>
 
         
 
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020/06/07/alg-binary/" rel="next" title="二分法查找">
-      二分法查找 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/06/20/net-IPC/" rel="prev" title="进程通信">
+      <i class="fa fa-chevron-left"></i> 进程通信
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -366,7 +391,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#volatile修饰"><span class="nav-number">1.</span> <span class="nav-text">volatile修饰</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#volatile性能"><span class="nav-number">2.</span> <span class="nav-text">volatile性能</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#OSI模型"><span class="nav-number">1.</span> <span class="nav-text">OSI模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#应用层-Application"><span class="nav-number">1.1.</span> <span class="nav-text">应用层(Application)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#表达层-Presentation"><span class="nav-number">1.2.</span> <span class="nav-text">表达层(Presentation)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#会话层-Session"><span class="nav-number">1.3.</span> <span class="nav-text">会话层(Session)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#传输层-Transport"><span class="nav-number">1.4.</span> <span class="nav-text">传输层(Transport)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#网络层-Network"><span class="nav-number">1.5.</span> <span class="nav-text">网络层(Network)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据链路层-Data-Link"><span class="nav-number">1.6.</span> <span class="nav-text">数据链路层(Data Link)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#物理层-Physical"><span class="nav-number">1.7.</span> <span class="nav-text">物理层(Physical)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TCP-IP模型"><span class="nav-number">2.</span> <span class="nav-text">TCP&#x2F;IP模型</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

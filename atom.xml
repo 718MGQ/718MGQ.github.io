@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-06-20T08:18:49.281Z</updated>
+  <updated>2020-08-11T08:38:06.259Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>爬楼梯</title>
+    <link href="http://https//718mgq.github.io/2020/08/11/alg-fibonacci/"/>
+    <id>http://https//718mgq.github.io/2020/08/11/alg-fibonacci/</id>
+    <published>2020-08-11T08:32:52.000Z</published>
+    <updated>2020-08-11T08:38:06.259Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;假设你正在爬楼梯。需要 n 阶你才能到达楼顶。&lt;br&gt;每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？&lt;br&gt;注意：给定 n 是一个正整数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;不建议使用递归，当n很大的时候，递归会超时！&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>网络分层</title>

@@ -1,0 +1,4 @@
+---
+title: Tag
+type: "tags"
+---

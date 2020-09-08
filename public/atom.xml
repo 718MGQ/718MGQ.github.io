@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>G.Miao&#39;s Blog</title>
+  <icon>http://https//718mgq.github.io/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://https//718mgq.github.io/"/>
+  <updated>2020-09-08T06:52:26.211Z</updated>
+  <id>http://https//718mgq.github.io/</id>
+  
+  <author>
+    <name>miaoguangqiang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021届校招内推分享</title>
+    <link href="http://https//718mgq.github.io/2020/09/08/java-push/"/>
+    <id>http://https//718mgq.github.io/2020/09/08/java-push/</id>
+    <published>2020-09-08T06:00:27.000Z</published>
+    <updated>2020-09-08T06:52:26.211Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;分享几个2021届校招内推信息，持续更新&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;快手21届校招内推，直接申请投递即可&lt;br&gt;&lt;a href=&quot;https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?internalPerson=TkttKFlRkBS2hYdhonMHuw%3D%3D&amp;amp;recruitSubProjectCode=2021qiuzhao&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?internalPerson=TkttKFlRkBS2hYdhonMHuw%3D%3D&amp;amp;recruitSubProjectCode=2021qiuzhao&lt;/a&gt;
+    
+    </summary>
+    
+    
+      <category term="内推" scheme="http://https://718mgq.github.io/categories/%E5%86%85%E6%8E%A8/"/>
+    
+    
+      <category term="校招" scheme="http://https://718mgq.github.io/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爬楼梯</title>
+    <link href="http://https//718mgq.github.io/2020/08/11/alg-fibonacci/"/>
+    <id>http://https//718mgq.github.io/2020/08/11/alg-fibonacci/</id>
+    <published>2020-08-11T08:32:52.000Z</published>
+    <updated>2020-08-11T08:39:35.759Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;题目描述-leetcode-70&quot;&gt;&lt;a href=&quot;#题目描述-leetcode-70&quot; class=&quot;headerlink&quot; title=&quot;题目描述(leetcode 70)&quot;&gt;&lt;/a&gt;题目描述(leetcode 70)&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;假设你正在爬楼梯。需要 n 阶你才能到达楼顶。&lt;br&gt;每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？&lt;br&gt;注意：给定 n 是一个正整数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;不建议使用递归，当n很大的时候，递归会超时！&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网络分层</title>
+    <link href="http://https//718mgq.github.io/2020/06/20/net-OSI/"/>
+    <id>http://https//718mgq.github.io/2020/06/20/net-OSI/</id>
+    <published>2020-06-20T07:34:22.000Z</published>
+    <updated>2020-06-20T08:18:49.281Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文简单介绍一下两种分层模型：OSI网络分层和TCP/IP网络分层。&lt;/p&gt;
+&lt;h3 id=&quot;OSI模型&quot;&gt;&lt;a href=&quot;#OSI模型&quot; class=&quot;headerlink&quot; title=&quot;OSI模型&quot;&gt;&lt;/a&gt;OSI模型&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;OSI模型一共分为七层，由上至下分别是：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;应用层&lt;/li&gt;
+&lt;li&gt;表达层&lt;/li&gt;
+&lt;li&gt;会话层&lt;/li&gt;
+&lt;li&gt;传输层&lt;/li&gt;
+&lt;li&gt;网络层&lt;/li&gt;
+&lt;li&gt;数据链路层&lt;/li&gt;
+&lt;li&gt;物理层
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="网络" scheme="http://https://718mgq.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="TCP" scheme="http://https://718mgq.github.io/tags/TCP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进程通信</title>
+    <link href="http://https//718mgq.github.io/2020/06/20/net-IPC/"/>
+    <id>http://https//718mgq.github.io/2020/06/20/net-IPC/</id>
+    <published>2020-06-20T03:06:47.000Z</published>
+    <updated>2020-06-20T07:34:28.487Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h4&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们在面试中常常被问到进程通信的方式有哪些，感觉与我们平时的开发工作没有关系，其实我们也是一直在用它&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;进程通信方式&quot;&gt;&lt;a href=&quot;#进程通信方式&quot; class=&quot;headerlink&quot; title=&quot;进程通信方式&quot;&gt;&lt;/a&gt;进程通信方式&lt;/h4&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、管道（pipe）&lt;br&gt;        管道又分为无名管道（即匿名管道）和有名管道&lt;br&gt;        其实我们平时经常用到无名管道，在Linux命令中”|”就是无名管道的使用，&lt;br&gt;        他将一个进程的输出传入到另一个进程中，比如：&lt;br&gt;        &lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;cat&lt;/span&gt; xxxlog | &lt;span class=&quot;keyword&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;xxx&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;        有名管道可以通过 mkfifo &lt;pipename&gt; 命令创建&lt;br&gt;        &lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;mkfifo pipe&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2、消息队列&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="进程通信" scheme="http://https://718mgq.github.io/tags/%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java面试图谱</title>
+    <link href="http://https//718mgq.github.io/2020/06/16/java-interview/"/>
+    <id>http://https//718mgq.github.io/2020/06/16/java-interview/</id>
+    <published>2020-06-16T01:06:35.000Z</published>
+    <updated>2020-06-20T03:58:05.256Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;简单列出Java面试图谱，仅供参考！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;img src=&quot;/images/Java开发知识储备.png&quot; width=&quot;90%&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="Java面试图谱" scheme="http://https://718mgq.github.io/categories/Java%E9%9D%A2%E8%AF%95%E5%9B%BE%E8%B0%B1/"/>
+    
+    
+      <category term="Java面试" scheme="http://https://718mgq.github.io/tags/Java%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="图谱" scheme="http://https://718mgq.github.io/tags/%E5%9B%BE%E8%B0%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三次握手、四次挥手</title>
+    <link href="http://https//718mgq.github.io/2020/06/14/net-three-and-four/"/>
+    <id>http://https//718mgq.github.io/2020/06/14/net-three-and-four/</id>
+    <published>2020-06-14T14:38:20.000Z</published>
+    <updated>2020-06-15T02:17:05.581Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;h6 id=&quot;过程如下图&quot;&gt;&lt;a href=&quot;#过程如下图&quot; class=&quot;headerlink&quot; title=&quot;过程如下图&quot;&gt;&lt;/a&gt;过程如下图&lt;/h6&gt;&lt;/blockquote&gt;
+&lt;img src=&quot;/images/threeAndFour.png&quot; width=&quot;80%&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="internet" scheme="http://https://718mgq.github.io/tags/internet/"/>
+    
+      <category term="TCP" scheme="http://https://718mgq.github.io/tags/TCP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DOS攻击</title>
+    <link href="http://https//718mgq.github.io/2020/06/13/net-dos/"/>
+    <id>http://https//718mgq.github.io/2020/06/13/net-dos/</id>
+    <published>2020-06-13T11:00:04.000Z</published>
+    <updated>2020-06-15T02:17:37.783Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;什么是DOS攻击&quot;&gt;&lt;a href=&quot;#什么是DOS攻击&quot; class=&quot;headerlink&quot; title=&quot;什么是DOS攻击&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/dos%E6%94%BB%E5%87%BB/3792374?fr=aladdin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;什么是DOS攻击&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;DoS是Denial of Service的简称，即拒绝服务，造成DoS的攻击行为被称为DoS攻击，其目的是使计算机或网络无法提供正常的服务。最常见的DoS攻击有计算机网络宽带攻击和连通性攻击。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://https://718mgq.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="网络" scheme="http://https://718mgq.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="dos" scheme="http://https://718mgq.github.io/tags/dos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>整数反转</title>
+    <link href="http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/"/>
+    <id>http://https//718mgq.github.io/2020/06/13/alg-reverse-integer/</id>
+    <published>2020-06-13T05:14:04.000Z</published>
+    <updated>2020-06-20T07:29:36.454Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/reverse-integer/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;力扣&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given a 32-bit signed integer, reverse digits of an integer.&lt;br&gt;给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>链表逆置</title>
+    <link href="http://https//718mgq.github.io/2020/06/12/alg-reverse-list/"/>
+    <id>http://https//718mgq.github.io/2020/06/12/alg-reverse-list/</id>
+    <published>2020-06-12T12:00:04.000Z</published>
+    <updated>2020-06-20T03:34:49.123Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;链表逆置&quot;&gt;&lt;a href=&quot;#链表逆置&quot; class=&quot;headerlink&quot; title=&quot;链表逆置&quot;&gt;&lt;/a&gt;链表逆置&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;输入: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5-&amp;gt;NULL&lt;br&gt;输出: 5-&amp;gt;4-&amp;gt;3-&amp;gt;2-&amp;gt;1-&amp;gt;NULL&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二分法查找</title>
+    <link href="http://https//718mgq.github.io/2020/06/07/alg-binary/"/>
+    <id>http://https//718mgq.github.io/2020/06/07/alg-binary/</id>
+    <published>2020-06-07T06:58:21.000Z</published>
+    <updated>2020-06-20T07:29:11.885Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;二分法查找：又称折半查找。适用于有序数据集合的目标值查找。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;二分法思想：假设有一个按升序排好序的数列data，查找目标值target，过程如下：
+1.将数列进行折半，判断data[mid]是否等于target, 相等则返回index, 否则，判断中间值和target大小；
+2.若 target &amp;gt; data[mid]，将data右一半执行第一步，否则，将data左一半执行第一步；
+3.返回index&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://https://718mgq.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="leetcode" scheme="http://https://718mgq.github.io/tags/leetcode/"/>
+    
+      <category term="algorithm" scheme="http://https://718mgq.github.io/tags/algorithm/"/>
+    
+      <category term="面试题" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java</title>
+    <link href="http://https//718mgq.github.io/2020/05/20/Java/"/>
+    <id>http://https//718mgq.github.io/2020/05/20/Java/</id>
+    <published>2020-05-20T02:07:34.079Z</published>
+    <updated>2020-05-20T02:16:31.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;volatile修饰&quot;&gt;&lt;a href=&quot;#volatile修饰&quot; class=&quot;headerlink&quot; title=&quot;volatile修饰&quot;&gt;&lt;/a&gt;volatile修饰&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;变量声明了volatile后，跳过cpu
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

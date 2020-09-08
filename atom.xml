@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-08-11T08:38:06.259Z</updated>
+  <updated>2020-09-08T06:21:17.774Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -17,16 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2021届校招内推分享</title>
+    <link href="http://https//718mgq.github.io/2020/09/08/java-push/"/>
+    <id>http://https//718mgq.github.io/2020/09/08/java-push/</id>
+    <published>2020-09-08T06:00:27.000Z</published>
+    <updated>2020-09-08T06:21:17.774Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;分享几个2021届校招内推信息，持续更新&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;快手21届校招内推，直接申请投递即可&lt;br&gt;&lt;a href=&quot;https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?internalPerson=TkttKFlRkBS2hYdhonMHuw%3D%3D&amp;amp;recruitSubProjectCode=2021qiuzhao&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?internalPerson=TkttKFlRkBS2hYdhonMHuw%3D%3D&amp;amp;recruitSubProjectCode=2021qiuzhao&lt;/a&gt;
+    
+    </summary>
+    
+    
+      <category term="内推" scheme="http://https://718mgq.github.io/categories/%E5%86%85%E6%8E%A8/"/>
+    
+    
+      <category term="校招" scheme="http://https://718mgq.github.io/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+      <category term="面试" scheme="http://https://718mgq.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>爬楼梯</title>
     <link href="http://https//718mgq.github.io/2020/08/11/alg-fibonacci/"/>
     <id>http://https//718mgq.github.io/2020/08/11/alg-fibonacci/</id>
     <published>2020-08-11T08:32:52.000Z</published>
-    <updated>2020-08-11T08:38:06.259Z</updated>
+    <updated>2020-08-11T08:39:35.759Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;hr&gt;
-&lt;blockquote&gt;
+      &lt;h3 id=&quot;题目描述-leetcode-70&quot;&gt;&lt;a href=&quot;#题目描述-leetcode-70&quot; class=&quot;headerlink&quot; title=&quot;题目描述(leetcode 70)&quot;&gt;&lt;/a&gt;题目描述(leetcode 70)&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;假设你正在爬楼梯。需要 n 阶你才能到达楼顶。&lt;br&gt;每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？&lt;br&gt;注意：给定 n 是一个正整数。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre&gt;&lt;code&gt;不建议使用递归，当n很大的时候，递归会超时！&lt;/code&gt;&lt;/pre&gt;

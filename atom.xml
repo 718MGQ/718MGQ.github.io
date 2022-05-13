@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2020-08-11T08:39:35.759Z</updated>
+  <updated>2022-05-13T16:59:12.352Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务端开发面试大纲(校招)</title>
+    <link href="http://https//718mgq.github.io/2022/05/13/interview-college/"/>
+    <id>http://https//718mgq.github.io/2022/05/13/interview-college/</id>
+    <published>2022-05-13T15:01:49.000Z</published>
+    <updated>2022-05-13T16:59:12.352Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;服务端开发校招面试大纲&quot;&gt;&lt;a href=&quot;#服务端开发校招面试大纲&quot; class=&quot;headerlink&quot; title=&quot;服务端开发校招面试大纲&quot;&gt;&lt;/a&gt;服务端开发校招面试大纲&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;秋招在即，送给后端开发的校招生们，持续补充。。。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;计算机基础&quot;&gt;&lt;a href=&quot;#计算机基础&quot; class=&quot;headerlink&quot; title=&quot;计算机基础&quot;&gt;&lt;/a&gt;&lt;strong&gt;计算机基础&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;数据结构与算法&quot;&gt;&lt;a href=&quot;#数据结构与算法&quot; class=&quot;headerlink&quot; title=&quot;数据结构与算法&quot;&gt;&lt;/a&gt;&lt;strong&gt;数据结构与算法&lt;/strong&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;即使这两个东西在学校的课程中，可能是分开教授，但是在面试上数据结构与算法是分不开的，数据结构是算法的基础，算法是数据结构的表达&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数据结构&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数组&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;链表&lt;/strong&gt;
+    
+    </summary>
+    
+    
+      <category term="面试大纲" scheme="http://https://718mgq.github.io/categories/%E9%9D%A2%E8%AF%95%E5%A4%A7%E7%BA%B2/"/>
+    
+    
+      <category term="校招" scheme="http://https://718mgq.github.io/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+  </entry>
   
   <entry>
     <title>爬楼梯</title>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://https//718mgq.github.io/"/>
-  <updated>2022-05-13T16:59:12.352Z</updated>
+  <updated>2022-05-16T15:48:58.550Z</updated>
   <id>http://https//718mgq.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>服务端开发面试大纲(校招)</title>
-    <link href="http://https//718mgq.github.io/2022/05/13/interview-college/"/>
-    <id>http://https//718mgq.github.io/2022/05/13/interview-college/</id>
-    <published>2022-05-13T15:01:49.000Z</published>
-    <updated>2022-05-13T16:59:12.352Z</updated>
+    <link href="http://https//718mgq.github.io/2022/05/16/interview-college/"/>
+    <id>http://https//718mgq.github.io/2022/05/16/interview-college/</id>
+    <published>2022-05-16T15:01:49.000Z</published>
+    <updated>2022-05-16T15:48:58.550Z</updated>
     
     <summary type="html">
     
@@ -43,6 +43,34 @@
     
     
       <category term="校招" scheme="http://https://718mgq.github.io/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>校招面试考点一 数据结构之数组</title>
+    <link href="http://https//718mgq.github.io/2022/05/15/data-structure-array/"/>
+    <id>http://https//718mgq.github.io/2022/05/15/data-structure-array/</id>
+    <published>2022-05-15T15:45:58.000Z</published>
+    <updated>2022-05-16T16:12:51.912Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;鸡汤&quot;&gt;&lt;a href=&quot;#鸡汤&quot; class=&quot;headerlink&quot; title=&quot;鸡汤&quot;&gt;&lt;/a&gt;鸡汤&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;人生没有连续的一帆风顺，总是要靠自己的坚持来维护这一份延续&lt;br&gt;一段连续的快乐总是那么不容易被插入或打断&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1、前言&quot;&gt;&lt;a href=&quot;#1、前言&quot; class=&quot;headerlink&quot; title=&quot;1、前言&quot;&gt;&lt;/a&gt;1、前言&lt;/h2&gt;&lt;p&gt;在复习数据之前，我们先回忆一个概念，什么是线性表，线性表和数组的关系是什么？接下来让我们一起来回顾一下&lt;/p&gt;
+&lt;h2 id=&quot;2、线性表&quot;&gt;&lt;a href=&quot;#2、线性表&quot; class=&quot;headerlink&quot; title=&quot;2、线性表&quot;&gt;&lt;/a&gt;2、线性表&lt;/h2&gt;&lt;p&gt;定义：&lt;strong&gt;零个或多个数据元素组成的有限序列。&lt;/strong&gt;&lt;br&gt;解释：我们注意定义中有两个点，一个是数据元素，一个是有限序列。首先线性表是一个序列，强调这个序列是有限长度n，其中&lt;strong&gt;n≥0&lt;/strong&gt;, n=0的序列我们成为空表；数据元素则是一个抽象的概念，数据元素可能是数字1、2、3，可能是猴、狗等动物，也可能是本子、笔等文具。&lt;/p&gt;
+&lt;h2 id=&quot;3、数组与线性表的关系&quot;&gt;&lt;a href=&quot;#3、数组与线性表的关系&quot; class=&quot;headerlink&quot; title=&quot;3、数组与线性表的关系&quot;&gt;&lt;/a&gt;3、数组与线性表的关系&lt;/h2&gt;
+    
+    </summary>
+    
+    
+      <category term="校招面试" scheme="http://https://718mgq.github.io/categories/%E6%A0%A1%E6%8B%9B%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="校招" scheme="http://https://718mgq.github.io/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+      <category term="数据结构" scheme="http://https://718mgq.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
